@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #824D74;
+}
+
+.text{
+    font-size: 2.5rem;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    text-align: center;
+    padding: 15%;
+}
+
+.otp-showcase {
+  border: 3px solid #131842;
+  padding: 9px 25px;
+  width: fit-content;
+  margin: auto;
+  transform: translateY(-150%);
+
+}
+
+.otp-showcase span{
+    font-size: 25px;
+    color: aliceblue;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    padding: 8px 28px;
+    font-weight: 700;
+    border-radius: 25px;
+    background-color: crimson;
+    color: bisque;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+}
+
+button:hover{
+    background-color: beige;
+    color: black;
+}
