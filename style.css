@@ -10,14 +10,28 @@ html,body{
 }
 
 body{
-    background-color: #824D74;
+    background: linear-gradient(to left top, pink, lightblue, plum);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: rgba(255,255,255,0.3);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    border-radius: 10px;
+    width: 85%;
+    max-width: 450px;
+    justify-content: center;
+    align-content: center;
 }
 
 .text{
     font-size: 2.5rem;
     font-weight: 200;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: azure;
+    color:dodgerblue;
     text-align: center;
     padding: 15%;
 }
@@ -27,7 +41,7 @@ body{
   padding: 9px 25px;
   width: fit-content;
   margin: auto;
-  transform: translateY(-150%);
+  transform: translateY(-100%);
 
 }
 
